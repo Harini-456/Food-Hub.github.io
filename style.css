@@ -1,0 +1,189 @@
+ body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+      .bag-icon-container {
+      position: relative;
+    }
+ .nav-icon {
+      font-size: 1.5rem;
+      color: #333;
+      margin: 0 10px;
+      position: relative;
+    }
+ .bag-icon-container {
+      position: relative;
+    }
+
+    .badge-notify {
+      position: absolute;
+      top: -8px;
+      right: -8px;
+      background-color: orangered;
+      color: white;
+      font-size: 0.65rem;
+      padding: 2px 6px;
+      border-radius: 50%;
+    }
+.btn-orange {
+      background-color: orangered;
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 0.4rem 1rem;
+      font-weight: bold;
+    }
+    .btn-outline-warning
+    {
+        background-color: orangered;
+        color: white;
+        padding: 2px 6px;
+        border-radius: 45%;
+        width: 80px;
+        height: auto;
+    }
+    .trust-section {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+    }
+    .trust-section{
+        color: grey;
+    }
+ .avatars{
+        display: flex;
+    }
+    .avatar {
+      width: 40px;
+      height: 40px;
+      background-color: #eee;
+      border-radius: 50%;
+      margin-right: -10px; 
+      border: 2px solid white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      color: #bbb;
+    }
+
+
+    .hero {
+      background: linear-gradient(90deg, #fff6eb, #ffffff);
+      padding: 60px 0;
+    }
+    .image-placeholder1 {
+      width: 100%;
+      height: 600px;
+      background-color: #e3e3e3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+    }
+    .image-placeholder i {
+      font-size: 48px;
+      color: #aaa;
+    }
+    .how-it-works .step {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 12px;
+    }
+    .restaurant-card {
+      background: #f9f9f9;
+      border-radius: 12px;
+      padding: 10px;
+      text-align: center;
+    }
+    .testimonial {
+      background: #f9f9f9;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .image-placeholder {
+    height: 190px; 
+    width: 90%;
+    color: #aaa;;
+}
+.button {
+  padding: 10px 30px;
+  font-size: 16px;
+  color: #f97316; 
+  border: 2px solid #f97316;
+  border-radius: 999px; 
+  background-color: white;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #fff5eb; 
+}
+
+ .step-card {
+      background-color: #f9f9f9;
+      padding: 2rem;
+      border-radius: 12px;
+      height: 100%;
+      position: relative;
+    }
+ .emoji {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .card-title {
+      font-weight: 600;
+    }
+
+    .btn-warning {
+      background-color: #ff6b00;
+      border: none;
+    }
+
+    .btn-outline-warning {
+      border-color: #ff6b00;
+      color: #ff6b00;
+    }
+
+    .btn-outline-warning:hover {
+      background-color: #ff6b00;
+      color: white;
+    }
+    .step-number {
+      background: linear-gradient(135deg, #ffe9cc, #ffe0b3);
+      color: #ff7f00;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .step-card {
+      background-color: #f9f9f9;
+      padding: 2rem;
+      border-radius: 12px;
+      height: 100%;
+      position: relative;
+    }
+
+    .step-arrow {
+      position: absolute;
+      right: -25px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 24px;
+      color: #ff9900;
+    }
+
+    .how-it-works h2 {
+      font-weight: 700;
+    }
+
+    .how-it-works p.lead {
+      color: #6c757d;
+    }
