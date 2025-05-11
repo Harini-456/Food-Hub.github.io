@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodHub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold text-warning" href="#">FoodHub</a>
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row">
+        <li class="nav-item">
+          <a class="nav-link text-secondary px-3" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary px-3" href="#restaurants">Restaurants</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary px-3" href="#how-it-works">How it Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-secondary px-3" href="#about-us">About Us</a>
+        </li>
+      </ul>
+
+      <div class="d-flex align-items-center">
+        <i class="bi bi-search nav-icon"></i>
+
+        <div class="bag-icon-container nav-icon">
+          <i class="bi bi-bag"></i>
+          <span class="badge-notify">3</span>
+        </div>
+
+        <button class="btn btn-orange ms-3">Sign In</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1><strong>Delicious Food <span class="text-warning">Delivered</span> To Your Door</strong></h1>
+          <p>Order from your favorite restaurants and get food delivered in minutes. Enjoy the convenience of doorstep delivery.</p>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter your delivery address">
+            <button class="btn btn-warning">Find Food</button>
+          </div>
+          
+          <div>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <span class="ms-2">Trusted by 10,000+ customers</span>
+          </div>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="image-placeholder1">
+            <i class="fas fa-image"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it Works -->
+  <section class="py-5 how-it-works text-center">
+    <div class="container">
+      <h3 class="mb-4 fw-bold">How It Works</h3>
+      <p class="mb-5">Get your favorite food in 3 simple steps</p>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="step">
+            <h5>01</h5>
+            <div class="emoji">&#x1F37D;&#xFE0F;</div>
+            <h6>Choose a Restaurant</h6>
+            <p>Browse through hundreds of restaurants near you</p>
+          </div>
+           <div class="step-arrow d-none d-md-block">&rarr;</div>
+        </div>
+        <div class="col-md-4">
+          <div class="step">
+            <h5>02</h5>
+            <div class="emoji">&#x1F354;</div>
+            <h6>Select Your Meal</h6>
+            <p>Browse menus and select your favorite dishes</p>
+          </div>
+           <div class="step-arrow d-none d-md-block">&rarr;</div>
+        </div>
+        <div class="col-md-4">
+          <div class="step">
+            <h5>03</h5>
+            <div class="emoji">&#128666;</div>
+            <h6>Get It Delivered</h6>
+            <p>Your order will arrive at your doorstep in minutes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container py-5">
+  <h2 class="fw-bold">Popular Restaurants</h2>
+  <p class="text-muted">Explore the best restaurants in your area</p>
+
+  <div class="d-flex gap-3 my-4">
+    <button class="btn btn-warning text-white">All</button>
+    <button class="btn btn-light">Pizza</button>
+    <button class="btn btn-light">Burgers</button>
+    <button class="btn btn-light">Sushi</button>
+    <button class="btn btn-light">Asian</button>
+  </div>
+
+  <div class="row g-4">
+    <!-- Burger King -->
+    <div class="col-md-3">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="position-relative bg-light" style="height:180px;">
+          <div class="position-absolute top-0 end-0 m-2 bg-white px-2 py-1 rounded-pill small">15–25 min</div>
+          <div class="d-flex justify-content-center align-items-center h-100 text-muted">
+            <i class="bi bi-image" style="font-size: 2rem;"></i>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title mb-1">Burger King</h5>
+          <p class="text-muted small">Fast Food</p>
+          <div class="d-flex align-items-center mb-3">
+            <span class="text-warning me-1"><i class="bi bi-star-fill"></i></span>4.5
+          </div>
+         <button class="button">View Menu</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pizza Hut (no icon) -->
+    <div class="col-md-3">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="position-relative bg-light" style="height:180px;">
+          <div class="position-absolute top-0 end-0 m-2 bg-white px-2 py-1 rounded-pill small">20–30 min</div>
+          <div class="d-flex justify-content-center align-items-center h-100 text-muted">
+            <i class="bi bi-image" style="font-size: 2rem;"></i>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title mb-1">Pizza Hut</h5>
+          <p class="text-muted small">Pizza</p>
+          <div class="d-flex align-items-center mb-3">
+            <span class="text-warning me-1"><i class="bi bi-star-fill"></i></span>4.3
+          </div>
+          <button class="button">View Menu</button>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Sushi Palace -->
+    <div class="col-md-3">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="position-relative bg-light" style="height:180px;">
+          <div class="position-absolute top-0 end-0 m-2 bg-white px-2 py-1 rounded-pill small">25–35 min</div>
+          <div class="d-flex justify-content-center align-items-center h-100 text-muted">
+            <i class="bi bi-image" style="font-size: 2rem;"></i>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title mb-1">Sushi Palace</h5>
+          <p class="text-muted small">Japanese</p>
+          <div class="d-flex align-items-center mb-3">
+            <span class="text-warning me-1"><i class="bi bi-star-fill"></i></span>4.8
+          </div>
+         <button class="button">View Menu</button>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Taco Bell -->
+    <div class="col-md-3">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="position-relative bg-light" style="height:180px;">
+          <div class="position-absolute top-0 end-0 m-2 bg-white px-2 py-1 rounded-pill small">15–25 min</div>
+          <div class="d-flex justify-content-center align-items-center h-100 text-muted">
+            <i class="bi bi-image" style="font-size: 2rem;"></i>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title mb-1">Taco Bell</h5>
+          <p class="text-muted small">Mexican</p>
+          <div class="d-flex align-items-center mb-3">
+            <span class="text-warning me-1"><i class="bi bi-star-fill"></i></span>4.2
+          </div>
+        <button class="button">View Menu</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mt-5">
+    <button class="btn btn-outline-secondary rounded-pill px-4">View All Restaurants</button>
+  </div>
+</div>
+
+  <!-- Mobile App Download -->
+  <section class="hero py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h4 class="fw-bold">Download Our Mobile App</h4>
+          <p>Get the full experience on your phone. Order food, track delivery, and get exclusive deals.</p>
+          <ul>
+            <li>Order food with just a few taps</li>
+            <li>Track your delivery in real-time</li>
+            <li>Save your favorite restaurants and meals</li>
+            <li>Get exclusive app-only deals and discounts</li>
+          </ul>
+          <button class="btn btn-dark btn-sm">App Store</button>
+          <button class="btn btn-dark btn-sm">Google Play</button>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="image-placeholder">
+            <i class="fas fa-image"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h4 class="fw-bold text-center mb-5">What Our Customers Say</h4>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="testimonial">
+            <p><i>"The delivery was super fast and the food was still hot when it arrived. Definitely ordering again!"</i></p>
+            <h6>Sarah Johnson</h6>
+            <small>Verified Customer</small>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial">
+            <p><i>"Great selection of restaurants and the app is so easy to use. Customer service is also excellent."</i></p>
+            <h6>Michael Brown</h6>
+            <small>Verified Customer</small>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial">
+            <p><i>"I love the real-time tracking feature. It's so convenient to know exactly when my food will arrive."</i></p>
+            <h6>Emily Davis</h6>
+            <small>Verified Customer</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
